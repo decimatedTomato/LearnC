@@ -3,11 +3,9 @@
 #include <stdint.h>
 
 int main() {
-    printf("%ld\n", __STDC_VERSION__);
-    return 0;
     // Data types
     int a = 0xDEAD;
-    printf("%d %f %e %c %x %s", a, a, a, a, a, a);
+    printf("%d %f %e %c %x %o", a, a, a, a, a, a);
 
     int v1;
     printf("v1 %d %u\n", v1, sizeof(v1));
@@ -20,7 +18,7 @@ int main() {
     struct Penis { short shaft; double balls } v5;
     printf("v5 %d %g %u\n", v5.shaft, v5.balls, sizeof(v5));
     union Bat { float swinging_force; long int age } v6;
-    printf("v6 %f %li, %u\n", v6.swinging_force, v6.age, sizoef(v6));
+    printf("v6 %f %li, %u\n", v6.swinging_force, v6.age, sizeof(v6));
     
 
     // How to represent that?
@@ -59,7 +57,7 @@ int main() {
     // The piston []-|
     uint_least64_t val;
     for (size_t i = 0; i < 100; i++) {
-        val = random();
+        val = rand();
         printf("%ld\n", val);
     }
     
