@@ -1,13 +1,2 @@
-.gitignore
-
-not_gentask.c
+gentask.c
 /leftovers/
-
-/part1_types/*c
-/part2_io/*c
-/part3_strings/*c
-/part4_pointers/*c
-/part5_build_systems/*c
-/part6_preprocessor/*c
-/part7_asm/*c
-/part8_graphics/*c
