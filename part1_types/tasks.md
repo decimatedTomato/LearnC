@@ -18,7 +18,7 @@ Create a series of variables which have types that are practical to represent:
 - average grass length
 - a day of the week
 - a color
-- a tab [    ] <- like that
+- a newline
 - a list of true/false settings
 - the distance between the moon and the earth
 
