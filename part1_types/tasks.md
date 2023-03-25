@@ -12,8 +12,10 @@ Create 6 variables of various types, print them as well as their size.
 # Task 2 - How to represent that?
 
 Create a series of variables which have types that are practical to represent:
+- amount of money in a bank account
 - someone's age
 - text (within 100 characters)
+- average grass length
 - a day of the week
 - a color
 - a tab [    ] <- like that
