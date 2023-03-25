@@ -11,3 +11,5 @@ not_gentask.c
 /part6_preprocessor/*c
 /part7_asm/*c
 /part8_graphics/*c
+
+/.vscode/
