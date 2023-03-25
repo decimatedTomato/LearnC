@@ -13,7 +13,7 @@ Create 6 variables of various types, print them as well as their size.
 
 Create a series of variables which have types that are practical to represent:
 - someone's age
-- text
+- text (within 100 characters)
 - a day of the week
 - a color
 - a tab [    ] <- like that
