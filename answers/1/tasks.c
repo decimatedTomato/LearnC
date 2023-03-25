@@ -15,9 +15,9 @@ int main() {
     printf("v3 %f %u\n", v3, sizeof(v3));
     _Bool v4;
     printf("v4 %i %u\n", v4, sizeof(v4));
-    struct Penis { short shaft; double balls } v5;
+    struct Penis { short shaft; double balls; } v5;
     printf("v5 %d %g %u\n", v5.shaft, v5.balls, sizeof(v5));
-    union Bat { float swinging_force; long int age } v6;
+    union Bat { float swinging_force; long int age; } v6;
     printf("v6 %f %li, %u\n", v6.swinging_force, v6.age, sizeof(v6));
     
 
