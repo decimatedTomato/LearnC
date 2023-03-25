@@ -2,7 +2,10 @@
 
 Let's learn some c!
 <br> First I am going to link some videos/articles in case you are interested.
+<br> I am planning to add all kinds of basic c components in subdirectories of this project.
+<br> Each "part" should include tasks, resources/explanations and a testing program or test instructions. Testing programs most likely only work for people with similar hardware to mine (rip bozo).
 
+https://modules.lancaster.ac.uk/pluginfile.php/3148331/course/section/355436/w01.01.pdf?time=1665397249321
 #### What is c, why is it used?
 "C" Programming Language: Brian Kernighan - Computerphile:
 https://www.youtube.com/watch?v=de2Hsvxaf8M&ab_channel=Computerphile
