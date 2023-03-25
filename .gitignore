@@ -1,6 +1,4 @@
-.gitignore
-
-not_gentask.c
+gentask.c
 /leftovers/
 
 /.vscode/
