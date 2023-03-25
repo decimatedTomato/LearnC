@@ -3,8 +3,8 @@ There won't be any tests for these tasks (I don't know how to do that yet). Afte
 # Task 1 - Data types
 
 In c, a variable type matters a great deal, they appear at the very start of a variable declaration, before even the variable name. A sensible way of thinking through a program is to consider what sort of data you might need and a sensible way to organize data is through the type system.
-
 There are many types in c, the same binary string can be interpreted and used in many different ways.
+
 Assign a value to an identifier and print 6 times using various format specifiers using printf.
 
 Create 6 variables of various types, print them as well as their size.
