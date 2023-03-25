@@ -1,6 +1,7 @@
 # Hello!
 
 Let's learn some c!
+<br> In this project a basic understanding of programming concepts is expected.
 <br> First I am going to link some videos/articles in case you are interested.
 <br> I am planning to add all kinds of basic c components in subdirectories of this project.
 <br> Each "part" should include tasks, resources/explanations and a testing program or test instructions. Testing programs most likely only work for people with similar hardware to mine (rip bozo).
@@ -35,6 +36,9 @@ https://onesearch.lancaster-university.uk/permalink/f/84h0d5/44LAN_ALMA_DS511368
 
 The best standard library and language feature referencing site
 https://en.cppreference.com/w/
+
+This seems good as well
+https://beej.us/guide/bgc/html/split/index.html
 
 The compiler explorer
 https://godbolt.org/
