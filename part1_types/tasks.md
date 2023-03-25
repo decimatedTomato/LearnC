@@ -34,7 +34,7 @@ Hint: A concept known as type aliasing might come in handy here
 
 Just so you know, there are actually several valid ways of representing these things. Well maintained documentation and consistency within a codebase are some deciding factors that determine whether an internal representation of a concept makes sense.
 
-# Task 4 - The piston []--|
+# Task 4 - The piston []-|
 
 Since c is a language that must remain fast when run on sorts of hardware the language sometimes conforms to the specific platform --and compiler-- that some software is targeted at. There is no guarantee that all basic types will always be represented in the same way on different devices.
 
