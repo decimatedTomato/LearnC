@@ -1,3 +1,5 @@
+There won't be any tests for these tasks (I don't know how to do that yet). After you finish how about you compare your answers to mine: LINKHERE
+
 # Task 1 - Data types
 
 In c, a variable type matters a great deal, they appear at the very start of a variable declaration, before even the variable name. A sensible way of thinking through a program is to consider what sort of data you might need and a sensible way to organize data is through the type system.
