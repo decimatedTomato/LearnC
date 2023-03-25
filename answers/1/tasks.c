@@ -46,10 +46,12 @@ int main() {
 
     Colorful_vertices_set set1;
     for (size_t i = 0; i < 10; i++) {
-        set1[i] = {
-            .p = { .x = 0, .y = 1, .z = 2 },
-            .c = { 0xFF, 0x77, 0x23, 0xFF }
-        };
+        Point p1 = { .x = 0, .y = 1, .z = 2 };
+        set1[i].p = p1;
+        set1[i].c[0] = 0xFF;
+        set1[i].c[1] = 0x77;
+        set1[i].c[2] = 0x23;
+        set1[i].c[3] = 0xFF;
     }
 
     // The piston []-|
