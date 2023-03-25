@@ -1,6 +1,6 @@
 .gitignore
 
-gentask.c
+not_gentask.c
 /leftovers/
 
 /part1_types/*c
