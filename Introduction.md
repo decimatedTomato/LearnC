@@ -44,11 +44,15 @@ https://godbolt.org/
 - General basics
 
 https://www.youtube.com/@JacobSorber
+
 https://www.youtube.com/@CodeVault
 
 - Specific advanced series
 
-- Big ass tutorial series (I do not use these)
+Oop theres nothing here... (handmade hero maybe)
+
+- Big ass tutorial series (I have not watched these)
 
 https://www.youtube.com/playlist?list=PLBlnK6fEyqRhX6r2uhhlubuF5QextdCSM
+
 https://www.youtube.com/playlist?list=PLvv0ScY6vfd8M-Mi_Vyrg7KgISTW3Sklt
