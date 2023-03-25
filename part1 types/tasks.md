@@ -1,4 +1,4 @@
-There won't be any tests for these tasks (I don't know how to do that yet). After you finish how about you compare your answers to mine: LINKHERE
+There won't be any tests for these tasks (I don't know how to do that yet). After you finish how about you compare your answers to mine: https://github.com/decimatedTomato/LearnC/blob/teacher/part1%20types
 
 # Task 1 - Data types
 
