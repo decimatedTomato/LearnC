@@ -1,5 +1,6 @@
 gentask.c
 /leftovers/
+/.vscode/
 
 /part1_types/*c
 /part2_io/*c
