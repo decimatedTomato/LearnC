@@ -29,6 +29,7 @@ My first programming teacher once said, "Programs only exist to visualize data, 
 - A position in 3d space
 - A set of vertices in 3d space
 - A set of vertices, each including an associated color
+
 Initialize a variable using a single keyword that represents the final type.
 Hint: A concept known as type aliasing might come in handy here
 
