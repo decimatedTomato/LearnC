@@ -37,7 +37,7 @@ Just so you know, there are actually several valid ways of representing these th
 
 # Task 4 - The piston []-|
 
-Since c is a language that must remain fast when run on sorts of hardware the language sometimes conforms to the specific platform --and compiler-- that some software is targeted at. There is no guarantee that all basic types will always be represented in the same way on different devices.
+Since c is a language that must remain fast when run on all sorts of hardware the language sometimes conforms to the specific platform --and compiler-- that some software is targeted at. There is no guarantee that all basic types will always be represented in the same way on different devices.
 
 Your goal is to output a series of instructions to a pistoning machine.
 The embedded device can only handle data of the form 64-bit integers.
