@@ -3,6 +3,7 @@
 ## Basic variables
 <br>https://en.cppreference.com/w/c/language/type
 <br>https://beej.us/guide/bgc/html/split/variables-and-statements.html#variable-types
+<br>https://en.cppreference.com/w/c/language/sizeof
 
 ## Creating types
 <br>https://en.cppreference.com/w/c/language/typedef
