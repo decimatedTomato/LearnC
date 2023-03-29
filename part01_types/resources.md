@@ -3,9 +3,11 @@
 ## Basic variables
 <br>https://en.cppreference.com/w/c/language/type
 <br>https://beej.us/guide/bgc/html/split/variables-and-statements.html#variable-types
+
+## Creating types
 <br>https://en.cppreference.com/w/c/language/typedef
 
-### Format specifiers
+### Outputting different types
 <br>https://en.cppreference.com/w/c/io/fprintf
 
 ## Data structures
