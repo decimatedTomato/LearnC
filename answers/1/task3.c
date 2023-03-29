@@ -35,6 +35,10 @@ int main() {
         {{0, 0, 0}, {0xFF, 0xFF, 0xFF, 0xFF}},
         {{0, 0, 0}, {0xFF, 0xFF, 0xFF, 0xFF}}
     };
+    for (size_t i = 0; i < sizeof(model)/sizeof(Colorful_Point); i++) {
+        printf("Point %f,%f,%f Color: %d %d %d %d\n", model[i].p.x, model[i].p.y, model[i].p.z, model[i].col[0], model[i].col[1], model[i].col[2], model[i].col[3]);
+    }
+    
 
     return 0;
 }
