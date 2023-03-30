@@ -9,7 +9,7 @@ My first programming teacher once said, "Programs only exist to visualize data, 
 
 Hint: A concept known as [type aliasing](resources.md#creating-types) might come in handy here
 
-<font color="orange">Initialize a variable using a single keyword that represents the final type.</font>
+<font color="orange">Initialize a variable using the final type.</font>
 You might find it more awkward to set value for a composite type, especially in c where only the declaration statement can set all components at once.
 
 Just so you know, there are actually several valid ways of representing these things. Well maintained documentation and consistency within a codebase are some deciding factors that determine whether an internal representation of a concept makes sense.

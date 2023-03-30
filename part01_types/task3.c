@@ -1,4 +1,4 @@
-int main(int argc, char *argv[]) {
+int main() {
     // A color that contains the r, g, b, a components
 
     // A position in 3d space
