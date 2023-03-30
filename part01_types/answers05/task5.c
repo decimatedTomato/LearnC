@@ -1,3 +1,5 @@
+#include <stdbool.h>
+
 int main() {
     struct Person {
         char name[100];
@@ -7,6 +9,7 @@ int main() {
     };
 
     struct Humanoid {
+        bool is_human;
         union identifier {
             char name[100];
             unsigned long int serial_number;
