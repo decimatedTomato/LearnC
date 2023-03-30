@@ -26,3 +26,6 @@ lets worry about those in a later task :)
 
 ## Enumerated types
 https://en.cppreference.com/w/c/language/enum
+
+## Extra
+https://www.embedded.com/why-size_t-matters/
