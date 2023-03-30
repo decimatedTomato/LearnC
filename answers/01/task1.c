@@ -1,6 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <stdint.h>
+#include <stdbool.h>
 
 int main() {
     int money_amount_in_cents;
@@ -10,7 +8,7 @@ int main() {
     enum DayOfWeek { MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY } day;
     unsigned int color[3];
     char tab;
-    _Bool settings[10];
+    bool settings[10];
     double distance_moon_earth;
 
     return 0;

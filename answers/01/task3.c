@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <stdint.h>
 
 int main() {
     // A color that contains the r, g, b, a components
