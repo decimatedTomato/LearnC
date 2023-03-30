@@ -28,4 +28,6 @@ lets worry about those in a later task :)
 https://en.cppreference.com/w/c/language/enum
 
 ## Extra
-https://www.embedded.com/why-size_t-matters/
+More information on certain types
+<br>https://www.embedded.com/why-size_t-matters/
+<br>https://www.youtube.com/watch?v=Oo89kOv9pVk&ab_channel=SimonDev
