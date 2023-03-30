@@ -34,5 +34,5 @@ In this case I made use of implicit casts.
 `str[length]` has the same boolean value as `str[length] != '\0'` or `str[length] != 0`.
 An if or while statement will interpret any non-zero value as true. Since I wanted to count the elements of str until I found a null terminator, and the null terminator has a value of zero the code could be shortened.
 
-Programmers generally like to keep their code as concise as possible to the point that the terseness can get in the way of readability (see the [haskell language](../resources.md)).
+Programmers generally like to keep their code as concise as possible to the point that the terseness can get in the way of readability (see the [haskell language](../resources.md#much-more-elegant-language-than-c)).
 <br>I freed my malloced memory because I am a good citizen ^_^.
