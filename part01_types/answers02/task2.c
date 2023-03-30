@@ -4,7 +4,7 @@
 
 int main() {
     int a = 0xDEAD;
-    printf("%d %f %e %c %x %o", a, a, a, a, a, a);
+    printf("%d %f %e %c %x %o\n", a, a, a, a, a, a);
 
     int money_amount_in_cents;
     printf("%zu\n", sizeof(money_amount_in_cents));

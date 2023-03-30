@@ -29,4 +29,17 @@ These specifiers can be used to output values into a table for example.
 
 `printf("%zu\n", sizeof(money_amount_in_cents));`
 
-The `%zu` formatting is 
+The `%zu` formatting is used to printf variables of type size_t. In case it isn't available in your version of c `%lu` is also used.
+
+Here are my variable type size results:
+4 (int)
+4 (unsigned int)
+100 (char[100])
+4 (float)
+4 (enum DayOfWeek this is basically just int again)
+12 (int[3] as you can see an array size is the sum of its elements)
+1 (char, as small as it gets in c)
+10 (bool[10], there are 70 unused bits in this variable, yikes )
+8 (double, literally double of float)
+
+In order to be more efficient at storing many boolean values you might want to look into bitvectors or bitwise operations on integers.
