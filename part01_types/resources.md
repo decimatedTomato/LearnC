@@ -31,3 +31,4 @@ https://en.cppreference.com/w/c/language/enum
 More information on certain types
 <br>https://www.embedded.com/why-size_t-matters/
 <br>https://www.youtube.com/watch?v=Oo89kOv9pVk&ab_channel=SimonDev
+<br>https://www.youtube.com/watch?v=lKTsv6iVxV4&ab_channel=Computerphile
