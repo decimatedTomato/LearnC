@@ -14,9 +14,13 @@ struct Humanoid {
 ```
 In this case the is_human field tracks which identifier we would use for this Humanoid. We can either pull out the name or serial number using the dot notation.
 ```c
-struct Humanoid Alexa;
-h.identifier.name;
-h.identifier.serial_number;
+void print_identifier(struct Humanoid h) {
+    if (h.is_human) {
+        printf("%s", h.identifier.name);
+    } else {
+        printf("%lu", h.identifier.serial_number);
+    }
+}
 ```
 I legitimately don't know many uses for unions. In most cases where a union is used you also have to store the currently used field of the union. Unions are almost always used in conjunction with a struct.
 
