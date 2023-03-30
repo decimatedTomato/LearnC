@@ -7,7 +7,7 @@ size_t my_strlen(char *str) {
     return length;
 }
 char *my_strcat_s(char *src1, char *src2) {
-    char *result = malloc(my_strlen(src1) + my_strlen(src2));
+    char *result = malloc(my_strlen(src1) + my_strlen(src2) + 1);
     int i = 0, j = 0;
     while (src1[i]) {
         result[i] = src1[i];
