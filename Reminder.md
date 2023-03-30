@@ -5,4 +5,5 @@ I have two branches:
 - teacher (for my solutions, developing the tests etc.)
 
 Write descriptions and add resources only in master.
-Frequently rebase changes from master. Do not merge.
+Write solutions and explanations only in teacher.
+Frequently merge changes from master.
