@@ -4,7 +4,7 @@
 
 size_t my_strlen(char *str) {
     size_t length = 0;
-    while (str[length++]);
+    while (str[length]) length++;
     return length;
 }
 
