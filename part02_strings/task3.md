@@ -15,4 +15,4 @@ In this case when you do something to a string you can take into account not onl
 
 <font color="orange">Create some sample strings in part3.c. Fill out the functions in goofy.c according to their signatures in goofy.h. Then invoke those functions in part3.c using the sample strings you created. Print the strings before and after invoking the functions. In order to use functions across multiple files compile them in one statement.</font>
 
-Remember that you can reuse one function within the body of another. The recursive nature of programming tasks is what make them amazingly satisfying. But then you remember the horrors.
+Remember that you can reuse one function within the body of another. The recursive nature of programming tasks is what make them amazingly satisfying. But then you remember the [horrors](resources.md#the-horrors).

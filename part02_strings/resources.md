@@ -9,3 +9,9 @@ https://en.cppreference.com/w/c/string/byte
 
 Functions in the string library
 https://www.youtube.com/watch?v=Vx3GyTVFcMA&list=PLn4mZps3Wx0-KQD4R78obN9oSaE4WmxcS&index=1&ab_channel=PortfolioCourses
+
+## Much more elegant language than c
+https://www.haskell.org/
+
+## The horrors
+https://en.wikipedia.org/wiki/Debugging
