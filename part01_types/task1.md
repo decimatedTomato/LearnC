@@ -1,4 +1,4 @@
-There won't be any tests for these tasks (I don't know how to do that yet). After you finish how about you compare your answers to mine: https://github.com/decimatedTomato/LearnC/blob/teacher/answers/1
+There won't be any tests for these tasks (I don't know how to do that yet). After you finish how about you compare your answers to mine: https://github.com/decimatedTomato/LearnC/tree/teacher/part01_types/answers01
 
 # Task 1 - Data types (How to represent that?)
 
