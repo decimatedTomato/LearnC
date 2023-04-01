@@ -10,6 +10,10 @@ https://en.cppreference.com/w/c/string/byte
 Functions in the string library
 https://www.youtube.com/watch?v=Vx3GyTVFcMA&list=PLn4mZps3Wx0-KQD4R78obN9oSaE4WmxcS&index=1&ab_channel=PortfolioCourses
 
+## String literals
+https://stackoverflow.com/questions/1455970/cannot-modify-c-string
+
+
 ## Header files
 The site is actually down right now but they usually know what they're talking about
 <br>https://en.cppreference.com/w/c/header
