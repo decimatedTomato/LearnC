@@ -28,9 +28,10 @@ Horrific way to declare and initialize strings:
 Sane use of [string literals](resources.md#string-literals):
 <br>`char str[53] = "MEIN HERZ IN FLAMMEN, WILL DICH LIEBEN UND VERDAMMEN";`
 
-String literals (anything wrapped in double quotes) are immutable and stored in the data segment. If you want a mutable string you have to first create the memory allocation and then copy the contents of the literal inside.
+Arrays are treated differently than pointers. `char *s = "immutable string";` This will be stored in the data segment, and cannot be modified.
 
-You might be wondering how to add invisible control characters to string literals. Anyway, here's your first real task, and it is a useful one:
+You might be wondering how to add invisible control characters to string literals.
+<br>Anyway, here's your first real task, and it is a useful one:
 
 <font color="orange">Create a function my_strlen() that takes in a string and returns its length (size_t).</font>
 
