@@ -25,12 +25,12 @@ First <font color="orange">declare some fun strings on the stack (make them fun 
 Horrific way to declare and initialize strings:
 <br>`char str[69] = {'h', 'e', 'l', 'l', 'o', ' ', 'w', '\0'}`
 
-Sane use of string literals:
+Sane use of [string literals](resources.md#string-literals):
 <br>`char str[53] = "MEIN HERZ IN FLAMMEN, WILL DICH LIEBEN UND VERDAMMEN";`
 
-You might be wondering how to add invisible control characters to string literals.
+String literals (anything wrapped in double quotes) are immutable and stored in the data segment. If you want a mutable string you have to first create the memory allocation and then copy the contents of the literal inside.
 
-Anyway, here's your first real task, and it is a useful one:
+You might be wondering how to add invisible control characters to string literals. Anyway, here's your first real task, and it is a useful one:
 
 <font color="orange">Create a function my_strlen() that takes in a string and returns its length (size_t).</font>
 
