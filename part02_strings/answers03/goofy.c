@@ -46,7 +46,7 @@ long strsum_n(char *str, size_t n) {
     if (str == NULL) return 0;
     long sum = 0;
     int i = 0;
-    while (str[i]) {
+    while (str[i] && i < n) {
         sum += str[i];
         i++;
     }
