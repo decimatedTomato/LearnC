@@ -6,7 +6,7 @@ Heap memory access can often be slower than stack, because variables can be all 
 Lets store the array length in another variable and pass it into the functions as an argument!
 
 But what kind of functions should we make?
-I know! How about you follow the interface in the goofy.h header file.
+I know! How about you follow the interface in the goofy.h header file. Maybe you don't know [how header files work](resources.md#header-files), they are insanely nice! The header file basically defines the public interface (the type definitions, constants and functions to be used by other programs) meanwhile you can swap out the c program that implements this interface (Just imagine how much easier this makes OS portability).
 
 Just this once I'll even lay out the compilation command for you:
 `gcc task3.c goofy.c`
