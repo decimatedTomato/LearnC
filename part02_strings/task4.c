@@ -1,4 +1,5 @@
 #include <stdbool.h>
+#include <stdlib.h>
 #include <ctype.h>
 
 /* This function returns whether or not all alphabetic characters of str are in uppercase */
