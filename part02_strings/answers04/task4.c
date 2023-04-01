@@ -40,7 +40,14 @@ char *numeric_substring(char *str) {
         if (isspace(str[i]) || isdigit(str[i])) valid_char_count++; 
         i++;
     }
-    char *copy = malloc()
+    char *copy = malloc(valid_char_count + 1);
+    i = 0, valid_char_count = 0;
+    while (str[i]) {
+        if (isspace(str[i]) || isdigit(str[i])) copy[valid_char_count++] = str[i]; 
+        i++;
+    }
+    copy[valid_char_count] = '\0';
+    return copy;
 }
 
 int main() {
