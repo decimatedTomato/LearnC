@@ -42,6 +42,9 @@ https://www.youtube.com/watch?v=Cu7Tl7FGigQ&ab_channel=Creel
 
 https://www.youtube.com/watch?v=tG4IeY01-xw&ab_channel=TsodingDaily (python implementation)
 
+More efficient algorithm
+<br>https://en.wikipedia.org/wiki/Wagner%E2%80%93Fischer_algorithm 
+
 ## Different distances
 https://www.youtube.com/watch?v=fl5fOAYY-1s&ab_channel=Dr.TreforBazett
 <br>https://www.youtube.com/watch?v=-LwmHk-iJoM&t=285s&ab_channel=modelpolitics
