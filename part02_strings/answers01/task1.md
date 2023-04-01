@@ -1,37 +1,48 @@
 # Task 1 - Strings on the stack
 
-In order to get used to string behavior let us recreate some libc functions.
-I'm going to entirely ignore the existence of multi-byte and wide characters (rip non latin alphabet bozos).
-Its not because I hate you, it is because I am afraid (I don't think wchar are treated the same way across different compilers).
-Also, I know that "pointers" has not been covered yet but we do need to use them now, sorry.
+I hope you understand my shoddy c-string explanation. It is something to get your head around that the strlen can be different from the length of the containing memory allocation.
 
-The most important thing to understand is that there is no string type in c.
-<br>When people talk about c-strings they are actually talking about a vanilla array of type char, with an additional requirement of a null terminator. The null terminator, written '\0' is a useful character with the integer value of 0, kind of like a null pointer. In the case of strings, the end of a string is marked with this character, even if the string has more space allocated to it than is being used (After an array is declared in c, it is impossible for the code to determine how long the array is [Actually it is possible but only within the function body that the array was declared in]).
-<br>This is in contrast to the string type in languages like c or java which actually use some sort of struct with a character array as well as a length property.
+`str[length]` has the same boolean value as `str[length] != '\0'` or `str[length] != 0`.
+An if or while statement will interpret any non-zero value as true. Since I wanted to count the elements of str until I found a null terminator, and the null terminator has a value of zero the code could be shortened.
 
-We can allocate memory on the stack (vanilla) or on the heap (freak behavior <3). Since its not always clear how long text needs to be, strings are often allocated on the heap. That way they can also be initialized within a function call and passed back by return pointer([we're almost there](../part04_pointers/)).
-<br>"Why can't you just return a pointer to something allocated on the stack?"
-<br>**[EXTREMELY LOUD INCORRECT BUZZER]**
-<br>If you do that to something allocated on the stack it will immediately go out of scope which is undefined behavior (it may be overwritten the next time you call a function [Well unless its a pointer that you got from a function argument meaning that the pointer was not owned by the function that just got resolved]).
+Programmers generally like to keep their code as concise as possible to the point that the terseness can get in the way of readability (see the [haskell language](../resources.md#much-more-elegant-language-than-c)).
 
-Array declaration on stack:
-<br>`char str[100];`
+```c
+size_t my_strlen(char *str) {
+    size_t length = 0;
+    while (str[length]) length++;
+    return length;
+}
+```
+In order to perform string operations you often have to traverse from the 'head pointer' to the nearest null terminator. In my solutions I used an index variable (length, i and j) since I thought it would come naturally to someone who has dealt with array indexing before. The alternative (which makes more sense in certain situations) is to "walk the pointer".
 
-Array declaration on heap:
-<br>`char *str = malloc(100);`
+Instead of writing `if (str[i] != '\0') i++;` you might say `if (*str != '\0') str++;`.
 
-First <font color="orange">declare some fun strings on the stack (make them fun media references</font>, that way you will enjoy yourself and be happy :). Remember that since we are dealing with null terminated strings here there should always be one more byte than the number of visible characters (I just know you were about to forget about '\0' but I wasn't gonna let that happen to my little guy).
+An advantage of this approach, is that if you need to return a pointer to a differnt substring of str you can just return this pointer once it has walked to the correct location. The approach is also often applied to datastructures where the stride is more than 1 since incrementing a pointer will increment the pointer by the size of data stored within the pointer.
 
-Horrific way to declare and initialize strings:
-<br>`char str[69] = {'h', 'e', 'l', 'l', 'o', ' ', 'w', '\0'}`
 
-Sane use of string literals:
-<br>`char str[53] = "MEIN HERZ IN FLAMMEN, WILL DICH LIEBEN UND VERDAMMEN";`
+```c
+char *my_strcat_s(char *src1, char *src2) {
+    char *result = malloc(my_strlen(src1) + my_strlen(src2) + 1);
+    int i = 0, j = 0;
+    while (src1[i]) {
+        result[i] = src1[i];
+        i++;
+    }
+    while (src2[j]) {
+        result[i + j] = src2[j];
+        j++;
+    }
+    result[i + j] = '\0';
+    return result;
+}
+```
+The most interesting detail here is probably the malloc statement. Since finding the length of either input string is the same process I extracted the behavior into a function. Then I acquired a memory block that was one larger than their combined lengths (space for null terminator). Then I copied the contents of both strings into the output string. Using index variables like this is not the only way to handle iterating through an array. It is fairly common to "walk a pointer".
+<br>I'm not really sure which one is better, but since we are handling data with a size of 1 byte that is consecutive in memory the indices work very well.
 
-You might be wondering how to add invisible control characters to string literals.
-
-Anyway, here's your first real task, and it is a useful one:
-
-<font color="orange">Create a function my_strlen() that takes in a string and returns its length (size_t).</font>
-
-<font color="orange">Create a function my_strcat(), that takes in two strings and appends the contents of one string to the other.</font> Maybe make it return something, I'm not a cop.
+```c
+char drink_tea[] = malloc(69);
+...
+free(drink_tea);
+```
+I freed my malloced memory because I am a good citizen ^_^.

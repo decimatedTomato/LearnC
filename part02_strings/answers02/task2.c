@@ -2,6 +2,7 @@
 #include <stdio.h>
 
 size_t my_strlen(char *str) {
+    if (str == NULL) return 0;
     size_t length = 0;
     while (str[length]) length++;
     return length;
