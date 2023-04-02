@@ -50,6 +50,6 @@ char *numeric_substring(char *str) {
     return copy;
 }
 
-int main() {
-    return 0;
-}
+// int main() {
+//     return 0;
+// }

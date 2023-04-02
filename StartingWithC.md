@@ -48,10 +48,12 @@ The compiler explorer
 ### General basics
 
 https://www.youtube.com/@JacobSorber
+<br>https://www.youtube.com/@PortfolioCourses
+<br>https://www.youtube.com/@CodeVault
 
-https://www.youtube.com/@PortfolioCourses
-
-https://www.youtube.com/@CodeVault
+I have not watched these
+<br>https://www.youtube.com/playlist?list=PLvv0ScY6vfd8M-Mi_Vyrg7KgISTW3Sklt (short series)
+<br>https://www.youtube.com/playlist?list=PLBlnK6fEyqRhX6r2uhhlubuF5QextdCSM (long series)
 
 ### Specific advanced series
 
@@ -61,13 +63,3 @@ Oop theres nothing here... (handmade hero maybe)
 
 https://www.youtube.com/@WhatsACreel
 <br>https://www.youtube.com/@simondev758 (uses javascript for examples T.T )
-
-
-### Big ass tutorial series
-
-I actually like this one
-<br>https://www.youtube.com/watch?v=gq_ZXCuRhU4&list=PLA1FTfKBAEX4hblYoH6mnq0zsie2w6Wif&ab_channel=PortfolioCourses
-
-I have not watched these
-<br>https://www.youtube.com/playlist?list=PLBlnK6fEyqRhX6r2uhhlubuF5QextdCSM
-<br>https://www.youtube.com/playlist?list=PLvv0ScY6vfd8M-Mi_Vyrg7KgISTW3Sklt
