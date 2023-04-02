@@ -2,6 +2,7 @@
 
 ## ASCII encoding
 https://en.cppreference.com/w/c/language/ascii
+http://www.unicode.org/charts/PDF/U0000.pdf
 https://www.youtube.com/watch?v=Rr8ljRgcJNM&ab_channel=RammsteinOfficial
 
 ## Standard c string library
